@@ -1,0 +1,43 @@
+nav{
+    background: #889347 !important;
+   
+}
+.nav-item{
+    margin: 0 10px;
+}
+.nav-link{
+    padding: 19 18px;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: white !important;
+}
+.nav-link:hover{
+    background: #404b52;
+}
+ .active{
+    background: #404b52;
+}
+ .dropdown:hover>.dropdown-menu{
+    display: block !important;
+}
+ .dropdown-menu{
+    background: #404b52;
+    padding: 20px 8px;
+    color: white;
+    border-radius: 0;
+}
+ .dropdown-item{
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    margin: 0;
+    border: 0;
+}
+  .dropdown-item:hover{
+    margin-left: 14px;
+    color: #889347 !important;
+    transition: 0.5s;
+    background: transparent !important;
+}
