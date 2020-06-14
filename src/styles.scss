@@ -3693,49 +3693,6 @@ h4 + .rd-mailform {
 }
 
 /** @section Footers */
-.footer-classic {
-    padding: 65px 0;
-    text-align: center;
-}
-
-.footer-classic p.rights a,
-.footer-classic p.rights a:focus,
-.footer-classic p.rights a:active,
-.footer-classic a.icon,
-.footer-classic a.icon:focus,
-.footer-classic a.icon:active {
-    color: #ffffff;
-}
-
-.footer-classic p.rights a:hover,
-.footer-classic a.icon:hover {
-    color: #889347;
-}
-
-.footer-classic * + .rights,
-.footer-classic * + .list-inline {
-    margin-top: 35px;
-}
-
-@media (min-width: 992px) {
-    .footer-classic {
-        text-align: left;
-    }
-}
-
-.context-dark p.rights {
-    color: #ffffff;
-}
-
-.context-dark p.rights a,
-.context-dark p.rights a:focus,
-.context-dark p.rights a:active {
-    color: #ffffff;
-}
-
-.context-dark p.rights a:hover {
-    color: #889347;
-}
 
 /** @group Plugins */
 /** @section Animate */
@@ -4010,49 +3967,7 @@ html.tablet .ui-to-top {
 
 /***** NAVBAR *******/
 
-header nav{
-    background: #889347 !important;
-   
-}
-header .nav-item{
-    margin: 0 10px;
-}
-header .nav-link{
-    padding: 19 18px;
-    font-size: 18px;
-    font-weight: 300;
-    text-transform: uppercase;
-    color: white !important;
-}
-header .nav-link:hover{
-    background: #404b52;
-}
-header nav .active{
-    background: #404b52;
-}
-header .dropdown:hover>.dropdown-menu{
-    display: block !important;
-}
-header .dropdown-menu{
-    background: #404b52;
-    padding: 20px 8px;
-    color: white;
-    border-radius: 0;
-}
-header .dropdown-item{
-    font-size: 12px;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: white;
-    margin: 0;
-    border: 0;
-}
-header  .dropdown-item:hover{
-    margin-left: 14px;
-    color: #889347 !important;
-    transition: 0.5s;
-    background: transparent !important;
-}
+
 header .line{
     padding-top: 13px 0;
 }
@@ -10776,7 +10691,13 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
     }
     section.banner-slide .carousel-caption {
         bottom: unset;
-        top: 10%;
+        top: 25%;
+    }
+    .nav-link{
+        padding-left: 10px !important;
+    }
+    .navbar-nav{
+        margin-top: 20px;
     }
     section.banner-slide .carousel-caption h2{
         font-size: 15px;

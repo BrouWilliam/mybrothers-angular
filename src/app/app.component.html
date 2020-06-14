@@ -10,53 +10,7 @@
 <div class="page">
   <header class="section page-header">
     <!--RD Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark info-color">
-      <div class="container">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Quem somos</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Para você
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="#">Acidentes Pessoaus</a>
-                  <a class="dropdown-item" href="#">+ Segura</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contatos</a>
-              </li>
-              
-          </ul>
-      </div>
-      </div>
-      
-  </nav>
-  <div class="line pt-2 pb-2">
-    <div class="container">
-      <div class="content">
-        <div class="logo">
-          <img src="../assets/logo-my-brother.png" alt="">
-        </div>
-        <div class="social-icons">
-          <ul class="list-unstyled d-flex">
-            <li><a href="https://www.linkedin.com/company/mybrother-seguros" target="_black"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-            <li><a href="https://www.facebook.com/MyBrotherSeguros/" target="_black"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
-            <li><a href="https://www.instagram.com/mybrotherseguros/" target="_black"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
+    <app-nav-bar></app-nav-bar>
   </header>
   <section class="banner-slide">
     <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
@@ -97,34 +51,6 @@
       </a>
     </div>
   </section>
-  <!-- <section class="section swiper-container swiper-slider swiper-slider-1" data-loop="true" data-autoplay="3200" data-simulate-touch="false" data-direction="horizontal">
-    <div class="swiper-wrapper text-center">
-      <div class="swiper-slide context-dark myimgbg" data-slide-bg="https://images.unsplash.com/photo-1511988617509-a57c8a288659?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80">
-        <div class="swiper-slide-caption section-md">
-          <div class="container">
-            <div class="row justify-content-lg-center">
-              <div class="col-lg-10">
-                <h1><span data-caption-animate="fadeInUp" data-caption-delay="100" data-caption-duration="900">TRANQUILIDADE E CUIDADO</span><span class="font-weight-regular text-uppercase" data-caption-animate="fadeInUp" data-caption-delay="250" data-caption-duration="900">QUE VOCÊ E SUA FAMÍLIA MERECEM.</span></h1><a class="button button-default-outline" href="acidentesPessoais.html" data-caption-animate="fadeInUp" data-caption-delay="450" data-caption-duration="900">Saiba mais.</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="swiper-slide context-dark myimgbg myimgbgcenter" data-slide-bg="https://images.unsplash.com/photo-1511988617509-a57c8a288659?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80">
-        <div class="swiper-slide-caption section-md">
-          <div class="container">
-            <div class="row justify-content-lg-center">
-              <div class="col-lg-10">
-                <h1><span data-caption-animate="fadeInUp" data-caption-delay="100" data-caption-duration="900">+SEGURA</span><span class="font-weight-regular text-uppercase" data-caption-animate="fadeInUp" data-caption-delay="250" data-caption-duration="900">PARA SER +LEVE NA VIDA.</span></h1><a class="button button-default-outline" href="maisSegura.html" data-caption-animate="fadeInUp" data-caption-delay="450" data-caption-duration="900">Saiba mais</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-    <div class="swiper-pagination"></div>
-  </section> -->
   <section class="section section-lg bg-image-pattern text-center" style="background-image: url(../assets/bg-pattern-01.jpg)">
     <div class="container">
       <h4>+Segura Previsul</h4>
@@ -216,8 +142,8 @@
   <section class="section section-lg bg-default">
     <div class="container">
       <div class="row row-30 flex-lg-row-reverse justify-content-md-center">
-        <div class="col-md-10 col-lg-6 p-0 text-center"><a class="video" href="https://youtu.be/GtcduqnFQTc" data-lightgallery="item"><span class="icon fa-play-circle-o"></span><img src="../assets/Post_Assistencia_Insta.jpg" alt="" class="imgf-fluid" /></a></div>
-        <div class="col-md-10 col-lg-6 p-0">
+        <div class="col-md-10 col-lg-6 text-center"><a class="video" href="https://youtu.be/GtcduqnFQTc" data-lightgallery="item"><span class="icon fa-play-circle-o"></span><img src="../assets/Post_Assistencia_Insta.jpg" alt="" class="imgf-fluid" /></a></div>
+        <div class="col-md-10 col-lg-6 ">
           <div class="block-md" style="height: 100%;">
             <h4 class="text-primary" style="padding-top: 20%">+Segura Previsul, o seguro feminino mais completo do mercado</h4>
             <p></p><a class="button button-primary" href="maisSegura.html">Saiba mais</a>
@@ -281,26 +207,6 @@
       </div>
     </div>
   </section>
-  <footer class="section footer-classic bg-image-pattern context-dark" style="background-image: url(../assets/bg-pattern-03.jpg)">
-    <div class="container">
-      <div class="row row-30 flex-lg-row-reverse">
-        <div class="col-lg-6">
-          <div class="float-lg-right">
-            <img src="../assets/logo-my-brother.png" style="width: 155px; height: auto; background-color: white; padding: 15px;" alt="" width="155" height="34">
-          </div>
-        </div>
-        <div class="col-lg-6"><a href="#">
-            <h5 style="margin-bottom: -15px">MyBrother Seguros</h5>
-          </a>
-          <ul class="list-inline list-inline-md">
-            <li><a class="icon icon-lg fa fa-linkedin-square" href="https://www.linkedin.com/company/mybrother-seguros" target="_BLANK"></a></li>
-            <li><a class="icon icon-lg fa fa-facebook-official" href="https://www.facebook.com/mybrotherseguros" target="_BLANK"></a></li>
-            <li><a class="icon icon-lg fa fa-instagram" href="https://www.instagram.com/mybrotherseguros" target="_BLANK"></a></li>
-          </ul>
-          <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>Todos direitos reservados</span><span>.&nbsp;</span><a href="privacy-policy.html">Política de Privacidade</a></p>
-        </div>
-      </div>
-    </div>
-  </footer>
+  <web-footer></web-footer>
 </div>
 <div class="snackbars" id="form-output-global"></div>
