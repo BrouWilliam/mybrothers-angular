@@ -1,6 +1,6 @@
 nav{
     background: #889347 !important;
-   
+    transition: 0.5s;
 }
 .nav-item{
     margin: 0 10px;
@@ -21,11 +21,15 @@ nav{
  .dropdown:hover>.dropdown-menu{
     display: block !important;
 }
+.dropdown-item:hover>.dropdown{
+    background: #404b52 !important;
+}
  .dropdown-menu{
     background: #404b52;
     padding: 20px 8px;
     color: white;
     border-radius: 0;
+    margin-top: -10px;
 }
  .dropdown-item{
     font-size: 12px;
@@ -40,4 +44,23 @@ nav{
     color: #889347 !important;
     transition: 0.5s;
     background: transparent !important;
+}
+.line .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 0;
+}
+.line .content .social-icons ul li a{
+    color: #404b52;
+    font-size: 26px;
+}
+
+nav.black{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    transition: 0.5s;
 }

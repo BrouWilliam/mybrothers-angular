@@ -1,1 +1,84 @@
-<p>contatos works!</p>
+<title>Contatos</title>
+<header class="section page-header">
+    <app-nav-bar></app-nav-bar>
+    <div class="line pt-2 pb-2">
+      <div class="container">
+        <div class="content">
+          <div class="logo">
+            <img src="../assets/logo-my-brother.png" alt="">
+          </div>
+          <div class="social-icons">
+            <ul class="list-unstyled d-flex">
+              <li><a href="https://www.linkedin.com/company/mybrother-seguros" target="_black"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.facebook.com/MyBrotherSeguros/" target="_black"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.instagram.com/mybrotherseguros/" target="_black"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      </div>
+</header>
+<section class="section section-lg bg-image-pattern context-dark" style="background-image: url(../../assets/bg-pattern-02.jpg)">
+    <div class="container">
+      <div class="row row-30 flex-md-row">
+        <div class="col-md-6 col-lg-8">
+          <h4>Entre em contato</h4>
+          <form id="formulario" class="rd-mailform text-left" onsubmit="authenticate()">
+            <div class="row row-10 row-narrow">
+              <div class="col-lg-4">
+                <div class="form-wrap">
+                  <label class="form-label" for="contact-name">Nome*:</label>
+                  <input class="form-input" id="contact-name" type="text" name="name" value="" data-constraints="@Required">
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="form-wrap">
+                  <label class="form-label" for="contact-email">Email*:</label>
+                  <input class="form-input" id="contact-email" type="email" name="email" value="" data-constraints="@Required @Email">
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="form-wrap">
+                  <label class="form-label" for="contact-phone">Telefone:</label>
+                  <input class="form-input" id="contact-phone" type="text" name="phone" value="" data-constraints="@Required @PhoneNumber" onkeyup="mascara( this, mtel );" maxlength="15">
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="form-wrap">
+                  <label class="form-label" for="contact-message">Mensagem*:</label>
+                  <textarea class="form-input" id="contact-message" name="message" value="" data-constraints="@Required"></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="form-button">
+              <p id="msg"></p>
+              <button class="button button-primary" type="submit">Enviar</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-6 col-lg-4 ">
+          <div class="block-info-wrapper">
+            <h4>Endereço</h4>
+            <div class="block-info">
+              <h6 class="block-info-title">Rua dos Manacás nº 436, sala 6<br> Jardim da Gloria, Cotia, SP<br> CEP: 06711-500</h6>
+            </div>
+            <div class="block-info-address">
+              <dl class="block-info-address-item">
+                <dt class="block-info-address-left">Telefone:</dt>
+                <dd class="block-info-address-body"><a href="tel:1132870030">+55 (11) 3287-0030</a></dd>
+              </dl>
+              <dl class="block-info-address-item">
+                <dt class="block-info-address-left">Telefone:</dt>
+                <dd class="block-info-address-body"><a href="tel:1130459004">+55 (11) 3045-9004</a></dd>
+              </dl>
+              <dl class="block-info-address-item block-info-address-item-email">
+                <dt class="block-info-address-left">E-mail:</dt>
+                <dd class="block-info-address-body"><a href="mailto:contato@mybrotherseguros.com.br">contato@mybrotherseguros.com.br</a></dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <web-footer></web-footer>
